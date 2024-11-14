@@ -3,8 +3,8 @@ import albumentations as A
 from albumentations.pytorch import ToTensorV2
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-TRAIN_DIR = "G:/GAN/human_data_091423/All_train"
-VAL_DIR = "G:/GAN/human_data_new/All_test"
+TRAIN_DIR = "data/train"
+VAL_DIR = "data/val"
 LEARNING_RATE = 2e-4
 # LEARNING_RATE_MEDNET = 8e-4
 # LEARNING_RATE_MEDNET_G = 2e-5
